@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int isStringPalindrome(char str[]) {
     int i = 0, j;
     for (j = 0; str[j] != '\0'; j++);
@@ -10,9 +9,7 @@ int isStringPalindrome(char str[]) {
         i++;
         j--;
     }
-    return 1;
 }
-
 int main() {
     char str[100];
     printf("Enter a string: ");
@@ -21,6 +18,5 @@ int main() {
         printf("The string is a palindrome.\n");
     else
         printf("The string is not a palindrome.\n");
-    return 0;
 }
 

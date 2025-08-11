@@ -21,6 +21,5 @@ int main() {
     printf("Sum = %d\n", sum);
     printf("Average = %.2f\n", average);
 
-    return 0;
 }
 

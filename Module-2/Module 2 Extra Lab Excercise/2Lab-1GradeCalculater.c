@@ -14,6 +14,5 @@ int main() {
     else
         printf("Grade D\n");
 
-    return 0;
 }
 

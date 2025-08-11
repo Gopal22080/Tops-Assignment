@@ -48,5 +48,6 @@ int main(){
             return 1;
     }
 
-
+ printf("Result = %2lf\n",result);
 	}
+

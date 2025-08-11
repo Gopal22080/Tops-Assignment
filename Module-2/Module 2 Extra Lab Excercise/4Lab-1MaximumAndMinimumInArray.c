@@ -26,6 +26,5 @@ int main() {
     printf("Maximum number: %d\n", max); 
     printf("Minimum number: %d\n", min); 
  
-    return 0; 
 } 
 
