@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+</head>
+
+<body>
+
+<form method="get">
+
+<label for="fullname">Full Name :</label>
+<input type="text" name="fullname" id="fullname" required minlength="3" maxlength="50">
+
+<br><br>
+
+<label for="email">Email :</label>
+<input type="email" name="email" id="email" required>
+
+<br><br>
+
+<label for="phone">Phone Number :</label>
+<input type="tel" name="phone" id="phone" pattern="[0-9]{10}" required>
+
+<br><br>
+
+<label for="subject">Subject :</label>
+
+<select name="subject" id="subject" required>
+
+<option value="">Select Subject</option>
+
+<option value="support">Support</option>
+
+<option value="feedback">Feedback</option>
+
+<option value="job">Job Inquiry</option>
+
+</select>
+
+<br><br>
+
+<label for="message">Message :</label>
+
+<textarea name="message" id="message" rows="5" cols="20" required minlength="10" maxlength="200"></textarea>
+
+<br><br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
